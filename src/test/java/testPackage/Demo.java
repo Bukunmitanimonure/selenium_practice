@@ -25,8 +25,8 @@ public class Demo {
 				System.out.println("Title does not match");
 		}
 		
-//		WebElement FirstName = driver.findElement(By.name("firstname"));
-//		FirstName.sendKeys("Opeyemi");
+		WebElement FirstName = driver.findElement(By.name("firstname"));
+		FirstName.sendKeys("Opeyemi");
 	}
 	
 	public static void SignUp (){
